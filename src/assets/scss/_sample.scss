@@ -1,0 +1,8 @@
+.sample {
+  @at-root {
+    & {
+      color: $black;
+      @include box;
+    }
+  }
+}
